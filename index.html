@@ -2,7 +2,6 @@
     <html lang="en">
     <head> 
         <link rel="stylesheet" href="style.css" />
-        
         <title>Harry Potter Rankings</title>
         <script defer src="script.js"></script>
     </head>
@@ -11,26 +10,22 @@
         <form id="search">
             <label for="search"></label><br>
             <input type="text" id="search-input" placeholder="Search for a character:"><br>
+            <div id ="search-error"></div>
         </form>
-        
     </header>
     <body>
         <div id="main-display">
-            
             <img id="main-image" src="harry-potter.jpeg" alt="No image"/>
-            
            <span>
                <h3></h3>
                 <ul>
                     <li id="house">House: </li>
                     <li id="ancestry">Ancestry: </li>
+                    <li id="dob">Date of Birth: </li>
+                    <li id="patronus">Patronus: </li>
                 </ul>
-                <button id="next-button">Next</button>
-                <button id="likes-display">Like</button>
+                <button id="next-button">Next Character</button>
            </span>
-            
         </div>
-        
     </body>
-    
-    </html>
+</html>
