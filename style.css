@@ -3,14 +3,11 @@
     src: url(./fonts/HARRP___.TTF);
 }
 
-
 header {
+    position:initial;
+    padding-top: 200px;
+    max-height: 2px;
     background-color: rgba(216, 24, 24, .75);
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
 header span {
@@ -31,44 +28,44 @@ header button:hover {
 }
 
 h2 {
+    position:absolute;
+    left: 560px;
+    top: 5px;
     font-family: 'Harry Potter', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 50px;
-    text-align: center;
+    font-size: 80px;
     text-shadow: .025em .05em .38em rgb(89, 230, 248);
-    vertical-align: center;
-    width: max-content;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
 }
 
+#search-input {
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    width: 200px;
+    height: 30px;
+}
 
 body {
     background-image: url("hogwarts-background.png");
-    background-color: rgba(237, 238, 238, 0.349);
+    background-color: rgba(237, 238, 238, 0.214);
     background-blend-mode: screen;
     background-repeat: no-repeat;
-    background-position: center;
+    object-fit: inherit;
 }
-
-
-
-
-
-
-
-
 
 
 #main-image {
-    width: 20%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 5%;
+    border-color: rgba(255, 255, 255, 0.822);
+    border-style: solid;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    left: 0px;
+    top: 50px;
+    object-fit: fill;
 }
+
 
 #main-display {
     text-align: center;
@@ -77,21 +74,24 @@ body {
 
 #main-display ul{
     background-color: rgb(255, 168, 168);
-    width: fit-content;
+    font-size: larger;
+    width: 300px;
+    height: 100px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5%;
 }
 
 #main-display button {
-    color: white;
+  color: white;
   padding: 9px 25px;
   background-color: rgba(0,136,255,10);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  margin-left: 20px;
+ 
 }
 
 #main-display button:hover {
@@ -102,12 +102,13 @@ body {
 #main-display h3 {
     font-family: 'Harry Potter', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: x-large;
+    font-size: 40px;
     background-color: rgb(255, 168, 168);
     padding: 10px;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5%;
 }
 
 /* #main-display ul {
